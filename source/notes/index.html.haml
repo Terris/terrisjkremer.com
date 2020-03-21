@@ -1,0 +1,31 @@
+---
+title: Notes
+---
+
+.row.contents
+  .col-lg-2
+    %h5.contents-nav-header Browse by:
+    %nav.contents-nav
+      %ul
+        %li= link_to "books", '/notes/category/books'
+        %li= link_to "inspiration", '/notes/category/inspiration'
+        %li= link_to "essays", '/notes/category/inspiration'
+        %li= link_to "design", '/notes/category/design'
+        %li= link_to "process", '/notes/category/process'
+  .col-lg-10.row
+    - blog('notes').articles[0...5].each do |article|
+      %article.col-lg-4
+        .poster.as-small
+          = link_to article.url do
+            %h3= article.title
+            = article.summary
+      %article.col-lg-4
+        .poster.as-small
+          = link_to article.url do
+            %h3= article.title
+            = article.summary
+      %article.col-lg-4
+        .poster.as-small
+          = link_to article.url do
+            %h3= article.title
+            = article.summary

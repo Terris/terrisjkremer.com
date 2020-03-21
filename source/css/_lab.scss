@@ -1,0 +1,10 @@
+.lab {
+	.lab-section {
+		width: 100%;
+		background: green;
+		&.sticky {
+			position: fixed;
+			top: 0;
+		}
+	}
+}
