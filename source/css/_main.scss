@@ -1,7 +1,5 @@
 /* Main
 ----------------------------------------------- */
-.main {
-}
 .nav-secondary {
 	a {
 		display: inline-block;
@@ -10,6 +8,13 @@
 		&:hover {
 			color: #f1c14d;
 		}
+	}
+}
+
+@media screen and (min-width: 820px) {
+	.hero {
+		width: 66.666666%;
+		padding-right: 40px;
 	}
 }
 

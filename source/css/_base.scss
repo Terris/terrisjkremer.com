@@ -165,9 +165,6 @@ input[type="submit"]:hover {
 /* UI Utils
 ----------------------------------------------- */
 .wrapper {
-	max-width: 760px;
+	max-width: 1440px;
 	margin: 0 auto;
-	&.wrapper-lg {
-		max-width: 1440px;
-	}
 }
