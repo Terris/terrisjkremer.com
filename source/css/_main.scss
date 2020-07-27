@@ -1,71 +1,71 @@
 /* Main
 ----------------------------------------------- */
 .nav-secondary {
-	a {
-		display: inline-block;
-		padding: 1rem 20px;
-		color: #fff;
-		&:hover {
-			color: #f1c14d;
-		}
-	}
+  a {
+    display: inline-block;
+    padding: 1rem 20px;
+    color: #fff;
+    &:hover {
+      color: #ffe45c;
+    }
+  }
 }
 
 @media screen and (min-width: 820px) {
-	.hero {
-		width: 66.666666%;
-		padding-right: 40px;
-	}
+  .hero {
+    width: 66.666666%;
+    padding-right: 40px;
+  }
 }
 
 /* Projects section
 ----------------------------------------------- */
 
 .projects {
-	.project-item {
-		.project-item-title {
-			padding-bottom: 0;
-			font-size: 1.15rem;
-			font-weight: 400;
-		}
-		.project-item-description {
-			padding-top: 0;
-			padding-bottom: 0;
-		}
-		.project-item-links {
-			padding-top: 0.5rem;
-			margin-left: -20px;
-			a {
-				color: #fff;
-				margin-left: 20px;
-				&:hover {
-					color: #f1c14d;
-				}
-			}
-		}
-		.project-item-tags {
-			padding-top: 0;
-			padding-bottom: 0;
-			font-size: 0.8rem;
-			color: #5c5c5c;
-		}
-	}
+  .project-item {
+    .project-item-title {
+      padding-bottom: 0;
+      font-size: 1.15rem;
+      font-weight: 400;
+    }
+    .project-item-description {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .project-item-links {
+      padding-top: 0.5rem;
+      margin-left: -20px;
+      a {
+        color: #fff;
+        margin-left: 20px;
+        &:hover {
+          color: #ffe45c;
+        }
+      }
+    }
+    .project-item-tags {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 0.8rem;
+      color: #5c5c5c;
+    }
+  }
 }
 
 @media screen and (min-width: 700px) {
-	.projects {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		.projects-col {
-			width: 33.333333%;
-			padding: 0 20px;
-			&:first-child {
-				padding-left: 0;
-			}
-			&:last-child {
-				padding-right: 0;
-			}
-		}
-	}
+  .projects {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .projects-col {
+      width: 33.333333%;
+      padding: 0 20px;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
 }

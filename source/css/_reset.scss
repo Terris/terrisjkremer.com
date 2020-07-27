@@ -3,30 +3,30 @@
 *,
 *:before,
 *:after {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	-webkit-overflow-scrolling: touch;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
 }
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 html,
 input,
 textarea {
-	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 body {
-	margin: 0;
-	background: #293533;
-	color: #fff;
-	text-rendering: optimizeLegibility;
-	font-size: 18px;
+  margin: 0;
+  background: #2b2b2b;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
 }
 img {
-	width: 100%;
-	display: block;
+  width: 100%;
+  display: block;
 }
 svg {
-	max-height: 100%;
+  max-height: 100%;
 }
