@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "rack", ">= 2.0.8"
+gem "rack", ">= 2.2.3"
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-livereload'
